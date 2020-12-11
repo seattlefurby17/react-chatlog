@@ -1,7 +1,8 @@
 import React from 'react';
-import './ChatEntry.css';
 import PropTypes from 'prop-types';
 import Timestamp from './Timestamp';
+import './ChatEntry.css';
+
 
 const ChatEntry = ({sender, body, timeStamp}) => {
   let senderClass = 'chat-entry local'
