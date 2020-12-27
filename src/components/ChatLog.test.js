@@ -3,7 +3,6 @@ import '@testing-library/jest-dom/extend-expect';
 import ChatLog from './ChatLog';
 import { render, screen } from '@testing-library/react'
 
-
 const LOG = [
   {
     'sender': 'Vladimir',
